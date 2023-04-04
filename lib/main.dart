@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tabbar_task/home_page2.dart';
 
 import 'home_page.dart';
 
@@ -15,12 +16,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.dark,
-      darkTheme: ThemeData(
-        brightness: Brightness.dark,
+      darkTheme: ThemeData( backgroundColor: Colors.white,
+        //brightness: Brightness.dark,
         primarySwatch: Colors.blue,
       ),
 
-      home: HomePage(),
+      // home: HomePage(),
+       home: HomePage2(),
     );
   }
 }
